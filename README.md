@@ -34,3 +34,20 @@ Windows
 3. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (Execute This)
 4. Now run .\Setup-WebServer.ps1
 
+
+
+## ⚙️ Static Website with nginx (Dockerfile)
+
+### 🔧 Purpose
+1. Created a Dockerfile which uses the nginx image
+2.which have a custome index.html
+3.Also Have an HEALTHCHECK instruction for certain intervals
+
+### ▶️ How to Run
+
+1.clone the repo or Copy the code to your local machine
+2.then install docker if not installed
+3.then run docker build -t <"your image tag nag name"> . 
+4.then after building verify with docker ps -a 
+5.now  docker run -d -p(localMachinPort):(ConatinerPort) <Image-Name>
+6.Now go the the browser and Search <Your-Public-ip>:<Port>
