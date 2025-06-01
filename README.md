@@ -51,3 +51,28 @@ Windows
 4. then after building verify with docker ps -a 
 5. now  docker run -d -p(localMachinPort):(ConatinerPort) <Image-Name>
 6. Now go the the browser and Search <Your-Public-ip>:<Port>
+
+
+## ⚙️ Docker Compose - Multi Container App
+
+### 🔧 Purpose
+1. This Conatiner Can be build and Runn using the compose file
+2. it Contain a Fronend and Backend Folder
+3. The Frontend containe the index.html , nginx.conf, entrypoint.sh,and Dockerfile
+4. The index.html server as the webpage , nginx.conf file act as reverse proxy to forward the request to the backend
+5. The entrypoint.sh file is used to get the enviroment variable and display it in the webpage which is passing from the compose.yaml file
+6. The Netxt Folder is the Backend which conatine a simple app.py file
+7. it act as a backend , it is python flask application whic has a /health route
+
+
+### ▶️ How to Run
+
+1. Clone the git repo and cd into Multi-conatiner-app or copy the code into you local machine
+2. then install docker and docker compose if on linux (in windows docker desktop come with built-in docker compose)
+3. then  run docker compose up --build
+4. this will build the images and run the application , with One command (simple right)
+5. then hit your <Public-ip>:<8080> for frontend , you can also hit the /health from here , reverse proxy role come here
+6. hit  your <Public-ip>:<5000> fro backend
+
+### Optional 
+1. CallApiandLog - this powershell script will call an openApi and will log the repsone in log file
