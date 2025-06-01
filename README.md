@@ -40,8 +40,8 @@ Windows
 
 ### 🔧 Purpose
 1. Created a Dockerfile which uses the nginx image
-2.which have a custome index.html
-3.Also Have an HEALTHCHECK instruction for certain intervals
+2. which have a custome index.html
+3. Also Have an HEALTHCHECK instruction for certain intervals
 
 ### ▶️ How to Run
 
