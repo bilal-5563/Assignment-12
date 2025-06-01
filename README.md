@@ -4,8 +4,9 @@ This repository contains automation scripts and solutions for the assignment. Ea
 There also some directories which conatines the Dockerfile as well as the source code
 ## 📁 Contents
 
-- `Setup-WebServer.ps1` — Automates the installation and configuration of a web server (IIS) on Windows.Which is and tried and tested script tested on ubuntu version 24,22
+- `Setup-WebServer.ps1` — Automates the installation and configuration of a web server (IIS) on Windows And Apache on Linux Debian Based Distributions. it is and tried and tested script tested on ubuntu version 24,22
   and Windows 2025 DataCenter Edition and Windows 2019 DataCenter Edition
+  
 - Other task files — Additional scripts and configurations related to the assignment.
 
 ## ⚙️ Setup-WebServer.ps1
