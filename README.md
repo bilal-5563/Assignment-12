@@ -22,13 +22,13 @@ Automates the setup of a basic web server using PowerShell on a Windows machine 
 
 ### ▶️ How to Run
 
-> Make sure you're running PowerShell with Administrator privileges.
-> Linux
+ Linux
 . First install Powershell
-> Copy the powershell script
-> run pwsh Setup-WebServer.ps1
+. Copy the powershell script
+. run pwsh Setup-WebServer.ps1
 
 Windows
+Make sure you're running PowerShell with Administrator privileges.
 Open power shell as admin powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (Execute This)
 Now run .\Setup-WebServer.ps1
