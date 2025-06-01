@@ -45,9 +45,9 @@ Windows
 
 ### ▶️ How to Run
 
-1.clone the repo or Copy the code to your local machine
-2.then install docker if not installed
-3.then run docker build -t <"your image tag nag name"> . 
-4.then after building verify with docker ps -a 
-5.now  docker run -d -p(localMachinPort):(ConatinerPort) <Image-Name>
-6.Now go the the browser and Search <Your-Public-ip>:<Port>
+1. clone the repo or Copy the code to your local machine
+2. then install docker if not installed
+3. then run docker build -t <"your image tag nag name"> . 
+4. then after building verify with docker ps -a 
+5. now  docker run -d -p(localMachinPort):(ConatinerPort) <Image-Name>
+6. Now go the the browser and Search <Your-Public-ip>:<Port>
